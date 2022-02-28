@@ -1,12 +1,7 @@
 
 #apiVersion: apps/v1
 apiVersion: apps/v1
-<<<<<<< HEAD
-kind: Deployment3
-=======
 kind: Deployment
-#kind: Deployment
->>>>>>> origin/miko
 metadata:
   name: {{ include "helmtest.fullname" . }}
   labels:
